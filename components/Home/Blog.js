@@ -32,6 +32,7 @@ const Blog = () => {
             </form>
           </div>
         </div>
+
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
           <div className="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
             <a href="#" className="block w-full h-full">
@@ -45,7 +46,7 @@ const Blog = () => {
               <a href="#" className="block w-full h-full">
                 <p className="font-medium text-indigo-500 text-md" />
                 <p className="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-                  test
+                  tests
                 </p>
                 <p className="font-light text-gray-400 dark:text-gray-300 text-md">
                   The new supercar is here, 543 cv and 140 000$ !!
@@ -62,7 +63,7 @@ const Blog = () => {
                 </a>
                 <div className="flex flex-col justify-between ml-4 text-sm">
                   <p className="text-gray-800 dark:text-white">Jean Jacques</p>
-                  <p className="text-gray-400 dark:text-gray-300">
+                  <p className="text-gray-400 dark:text-gray-300 ">
                     20 mars 2029 - 6 min read
                   </p>
                 </div>
@@ -234,11 +235,13 @@ const Blog = () => {
               <div className="flex items-center mt-4">
                 <a href="#" className="block w-full h-full"></a>
                 <a href="#" className="relative block">
-                  <img
-                    alt="profil"
-                    src="https://plus.unsplash.com/premium_photo-1670274606895-f2dc713f8a90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
-                    className="mx-auto object-cover rounded-full h-10 w-10 "
-                  />
+                  <div className="skew-y-12">
+                    <img
+                      alt="profil"
+                      src="https://plus.unsplash.com/premium_photo-1670274606895-f2dc713f8a90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGNvbXB1dGVyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                      className="mx-auto object-cover rounded-full h-10 w-10 "
+                    />
+                  </div>
                 </a>
                 <div className="flex flex-col justify-between ml-4 text-sm">
                   <p className="text-gray-800 dark:text-white">Jean Jacques</p>

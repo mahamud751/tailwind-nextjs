@@ -2,7 +2,7 @@ import React from "react";
 
 const Table = () => {
   return (
-    <div className="bg-gradient-to-r from-slate-900 to-slate-700">
+    <div className="bg-gray-500 bg-opacity-75 transition-opacity">
       <section className="container px-4 mx-auto">
         <div className="sm:flex sm:items-center sm:justify-between">
           <div>
